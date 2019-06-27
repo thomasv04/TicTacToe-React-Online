@@ -1,0 +1,39 @@
+.score_flex{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+.score{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    max-width: 800px;
+    flex:1;
+}
+
+.score .counter{
+    width: 30%;
+}
+
+.score .counter img{
+    width: 30%;
+}
+
+.score .counter p{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.score .counter:nth-child(1) p{
+    color: #79CADC;
+}
+
+.score .counter:nth-child(2) p{
+    color: #3A98D4;
+}
+
+.score .counter:nth-child(3) p{
+    color: #ADACAC;
+}
